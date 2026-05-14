@@ -5,11 +5,12 @@
 }
 
 
-.henny-penny-regular {
-  font-family: "Henny Penny", system-ui;
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 h1{
@@ -24,9 +25,11 @@ h3{
      color: rgb(129, 221, 129);    
     font-size: 30px;
 }
+
+}
 #logo{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 .imagenPrincipal{
     width: 600px;
@@ -35,7 +38,7 @@ h3{
 }
 #fondoCabeza{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: aquamarine;
 }
 #cajaLogo{
@@ -43,19 +46,38 @@ h3{
 }
 #textoLogo{
     color: darkgreen;
-    font-size: 45px;
+    font-size: 50px;
 }
-#li{
+#menuPpl{
+    background-color: rgb(127, 255, 159);
+    padding: 8px;
+    box-shadow: 5px 5px 15px 5px black;
+}
+#menuPpl li{
     display: inline-block;
     list-style: none;
     padding: 10px;
 }
-#li{
-    background-color: aquamarine;
-    padding: 7px;
-    box-shadow: 5px 5px 15px aqua(9,39,2);
-}
-#li{
+#menuPpl a{
     text-decoration: none;
-    color: aqua;
+    color: rgb(44, 140, 108);
+}
+#seccion1{
+    display: flex;
+}
+#convideo{
+    width: 50%;
+    border: 5px solid rgb(210, 74, 33);
+}
+#textoPpl{
+    width: 50%;
+    border: 5px solid rgb(36, 65, 198);
+}
+#videoPpl{
+    width: 90px;%;
+}
+#seccion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
