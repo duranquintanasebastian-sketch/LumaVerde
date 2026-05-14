@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+        color: darkgreen;
+        font-size: 80px;
+}
+h2{
+    color: darkseagreen;    
+    font-size: 60px;
+}
+h3{
+     color: rgb(129, 221, 129);    
+    font-size: 30px;
+}
+#logo{
+    width: 300px;
+    height: 300px;
+}
+.imagenPrincipal{
+    width: 600px;
+    height: 500px;
+   
+}
+#fondoCabeza{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}
+#cajaLogo{
+    padding-top: 100px;
+}
+#textoLogo{
+    color: darkgreen;
+    font-size: 45px;
+}
+#li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+#li{
+    background-color: aquamarine;
+    padding: 7px;
+    box-shadow: 5px 5px 15px aqua(9,39,2);
+}
+#li{
+    text-decoration: none;
+    color: aqua;
+}
