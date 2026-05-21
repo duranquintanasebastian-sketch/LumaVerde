@@ -62,19 +62,25 @@ h3{
 #seccion1{
     display: flex;
 }
-#convideo{
+#conVideo{
+    text-align: center;
     width: 50%;
-    border: 5px solid rgb(210, 74, 33);
+    border: 5px solid rgb(58, 228, 165);
 }
-#textoPpl{
+#textoPpal{
+    text-align: center;
     width: 50%;
-    padding: 60px;
-    border: 5px solid rgb(36, 65, 198);
+    padding: 60px;  
+    border: 5px solid rgb(1, 43, 19);
 }
 #videoPpl{
-    width: 90px;%;
+    width: 90px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 5px     15px 15px 5px rgb(10, 36, 0);
 }
 #seccion2{
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
