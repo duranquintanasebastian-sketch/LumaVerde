@@ -19,22 +19,19 @@ h1{
 }
 h2{
     color: darkseagreen;    
-    font-size: 60px;
+    font-size: 30px;
 }
 h3{
      color: rgb(129, 221, 129);    
     font-size: 30px;
-}
-
-}
+}   
 #logo{
     width: 200px;
     height: 200px;
 }
-.imagenPrincipal{
-    width: 600px;
+.imagenProduc{
+    width: 500px;
     height: 500px;
-   
 }
 #fondoCabeza{
     width: 100%;
@@ -71,6 +68,7 @@ h3{
 }
 #textoPpl{
     width: 50%;
+    padding: 60px;
     border: 5px solid rgb(36, 65, 198);
 }
 #videoPpl{
